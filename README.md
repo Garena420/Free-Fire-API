@@ -13,8 +13,8 @@ This endpoint retrieves account information based on the specified region and us
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).|
-| `uid`     | string | Yes      | The user ID.                  |
+| `uid`     | string | Yes      | The user ID.
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).                  |
 ### 📨 Request Example
 ```http
 GET https://garena420ffapi.vercel.app/profile_info?uid={}&region={}&key={}
