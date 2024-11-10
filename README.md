@@ -17,5 +17,5 @@ This endpoint retrieves account information based on the specified region and us
 | `uid`     | string | Yes      | The user ID.                  |
 ### 📨 Request Example
 ```http
-GET 
+GET https://garena420ffapi.vercel.app/profile_info?uid={}&region={}&key={}
 ```
