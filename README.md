@@ -109,3 +109,58 @@ GET https://garena420ffapi.vercel.app/profile_info?uid={uid}&region={region}&key
   }
 }
 ```
+
+
+# 🎫 Wishlist Items
+
+**Endpoint:** `/api/v1/wishlistitems`  
+**Method:** `GET`  
+**Description:** Retrieve a list of items from a user's wishlist, including item IDs and their release times.
+
+### ☑️ Query Parameters
+
+| Parameter | Type   | Required | Description                   |
+|-----------|--------|----------|-------------------------------|
+| `uid`     | string | Yes      | The user ID.
+| `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).
+| `key`     | string | Yes      | Your Key.|
+### 📨 Request Example
+```http
+GET https://garena420ffapi.vercel.app/wishlist_info?uid={uid}&region={region}&key={key}
+```
+### 💬 Response Example
+```json
+{
+  "items": [
+    {
+      "itemId": 203043011,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 204043011,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 205043011,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 211000589,
+      "releaseTime": "1706471849"
+    },
+    {
+      "itemId": 211043017,
+      "releaseTime": "1707786123"
+    },
+    {
+      "itemId": 904026008,
+      "releaseTime": "1709657470"
+    },
+    {
+      "itemId": 905042004,
+      "releaseTime": "1715897897"
+    }
+  ]
+}
+```
+
