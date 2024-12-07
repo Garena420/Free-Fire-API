@@ -13,7 +13,7 @@ This endpoint retrieves account information based on the specified region and us
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `uid`     | string | Yes      | The user ID.
+| `uid`     | integer | Yes      | The user ID.
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).
 | `key`     | string | Yes      | Your Key.|
 ### 📨 Request Example
@@ -113,7 +113,7 @@ GET https://garena420ffapi.vercel.app/profile_info?uid={uid}&region={region}&key
 
 # 🎫 Wishlist Items
 
-**Endpoint:** `/api/v1/wishlistitems`  
+**Endpoint:** `/wishlist_info`  
 **Method:** `GET`  
 **Description:** Retrieve a list of items from a user's wishlist, including item IDs and their release times.
 
@@ -133,32 +133,64 @@ GET https://garena420ffapi.vercel.app/wishlist_info?uid={uid}&region={region}&ke
 {
   "items": [
     {
-      "itemId": 203043011,
-      "releaseTime": "1707786123"
+      "itemId": 710047001,
+      "releaseTime": "1733119345"
     },
     {
-      "itemId": 204043011,
-      "releaseTime": "1707786123"
+      "itemId": 710047002,
+      "releaseTime": "1733119337"
     },
     {
-      "itemId": 205043011,
-      "releaseTime": "1707786123"
+      "itemId": 710047003,
+      "releaseTime": "1733119340"
     },
     {
-      "itemId": 211000589,
-      "releaseTime": "1706471849"
+      "itemId": 710047004,
+      "releaseTime": "1733119340"
     },
     {
-      "itemId": 211043017,
-      "releaseTime": "1707786123"
+      "itemId": 710047005,
+      "releaseTime": "1733119336"
     },
     {
-      "itemId": 904026008,
-      "releaseTime": "1709657470"
+      "itemId": 710047006,
+      "releaseTime": "1733119337"
     },
     {
-      "itemId": 905042004,
-      "releaseTime": "1715897897"
+      "itemId": 710047007,
+      "releaseTime": "1733119345"
+    },
+    {
+      "itemId": 710047008,
+      "releaseTime": "1733119338"
+    },
+    {
+      "itemId": 710047009,
+      "releaseTime": "1733119335"
+    },
+    {
+      "itemId": 710047010,
+      "releaseTime": "1733119344"
+    },
+    {
+      "itemId": 710047011,
+      "releaseTime": "1733119344"
+    },
+    {
+      "itemId": 710047012,
+      "releaseTime": "1733119340"
+    },
+    {
+      "itemId": 710047013,
+      "releaseTime": "1733119343"
+    },
+    {
+      "itemId": 710047014,
+      "releaseTime": "1733119343"
+    },
+    {
+      "itemId": 710047015,
+      "releaseTime": "1733119341"
     }
   ]
 }
