@@ -121,7 +121,7 @@ GET https://garena420ffapi.vercel.app/profile_info?uid={uid}&region={region}&key
 
 | Parameter | Type   | Required | Description                   |
 |-----------|--------|----------|-------------------------------|
-| `uid`     | string | Yes      | The user ID.
+| `uid`     | integer | Yes      | The user ID.
 | `region`  | string | Yes      | The region code (`IND`, `BR`, `SG`, `RU`, `ID`, `TW`, `US`, `VN`, `TH`, `ME`, `PK`, `CIS`, `BD`).
 | `key`     | string | Yes      | Your Key.|
 ### 📨 Request Example
